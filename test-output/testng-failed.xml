@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo_package.Orangehrm1">
+      <class name="Demo_package.Alertsclass">
         <methods>
-          <include name="bfrtst"/>
-          <include name="test2"/>
-          <include name="aftrtst"/>
+          <include name="testcase1"/>
+          <include name="testcase4"/>
+          <include name="bfrtest"/>
+          <include name="testcase3"/>
         </methods>
-      </class> <!-- Demo_package.Orangehrm1 -->
+      </class> <!-- Demo_package.Alertsclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
