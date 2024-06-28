@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo_package.Alertsclass">
+      <class name="Demo_package.Dynamic_dropdowns">
         <methods>
-          <include name="testcase1"/>
-          <include name="testcase4"/>
-          <include name="bfrtest"/>
-          <include name="testcase3"/>
+          <include name="test1"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Demo_package.Alertsclass -->
+      </class> <!-- Demo_package.Dynamic_dropdowns -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
