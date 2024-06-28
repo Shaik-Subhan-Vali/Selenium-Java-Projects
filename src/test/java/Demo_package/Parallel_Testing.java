@@ -39,7 +39,7 @@ public class Parallel_Testing {
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver dr2 = new FirefoxDriver();
 		
-		dr2.get("https://rahulshettyacademy.com/AutomationPractice/");
+		dr2.get("https://rahulshettyacademy.com/AutomationPractice/"); //new tab
 		
 		
 		
