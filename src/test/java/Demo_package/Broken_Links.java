@@ -17,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Broken_Links {
 
-	WebDriver driver;
+	WebDriver driver;  //decalring it in class level
 
     @BeforeTest
     public void bfrtst() throws InterruptedException {
