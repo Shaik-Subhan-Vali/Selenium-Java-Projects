@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class Groups {
 	
 	//we only having groups in testng
-	//Testng Groups -> Allows you to perform grouping of different test methods
+	//Testng Groups -> Allows you to perform grouping of different test mtds
 	
 	@Test(priority =1,groups = {"smoketest"} )   
 	public void tc1()
