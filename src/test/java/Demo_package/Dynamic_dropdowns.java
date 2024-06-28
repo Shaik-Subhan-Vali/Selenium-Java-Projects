@@ -23,7 +23,7 @@ public class Dynamic_dropdowns {
 	public void setup() {
 		
 		htmlreporter = new ExtentHtmlReporter("extent.html");
-		//Extent reports will start building the report with the help of extent instance.
+		//Extent reports will start building the report with the help of extent instance
 		extnt = new ExtentReports();
 		//Here i'm creating my reports and i need the reports in html format. so i'm attaching my reports with html reporter.
 		extnt.attachReporter(htmlreporter);
